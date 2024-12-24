@@ -54,7 +54,7 @@ java -jar target/myproject-1.0-SNAPSHOT.jar
 3. Open Hazelcast Management Center
 Open the Hazelcast Management Center in your browser:
 
-arduino
+
 Copy code
 http://localhost:8080
 Verify the following:
