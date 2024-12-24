@@ -20,6 +20,8 @@ This is a simple Java project that demonstrates the integration of Hazelcast, a 
 - **Maven**: Dependency management and build automation.
 - **Hazelcast**: Distributed data storage and clustering.
 - **Docker**: Containerized Hazelcast Server and Management Center.
+
+- 
 ------------------------------------------------------------
 
 ## Setup Instructions
@@ -40,7 +42,7 @@ docker run -d --name hazelcast-mancenter --network hazelcast-network -p 8080:808
   hazelcast/management-center
 ---------------------------------------------------------------------
 
-## 2.Build and Run the Java Program
+### 2.Build and Run the Java Program
 
 Use Maven to clean and package the project:
 
@@ -51,7 +53,7 @@ Execute the JAR file:
 
 java -jar target/myproject-1.0-SNAPSHOT.jar
 
-3. Open Hazelcast Management Center
+###3. Open Hazelcast Management Center
 Open the Hazelcast Management Center in your browser:
 
 
@@ -62,3 +64,8 @@ Verify the following:
 The people map contains 10,000 entries.
 The statistics for puts and gets are displayed.
 The program prints the first 10 entries from the people map:
+Key: 1, Value: Person{id=1, name='Person 1'}
+Key: 2, Value: Person{id=2, name='Person 2'}
+...
+Key: 10, Value: Person{id=10, name='Person 10'}
+
